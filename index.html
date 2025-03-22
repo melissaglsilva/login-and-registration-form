@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <script src="https://kit.fontawesome.com/becda8fcd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container" id="login">
+        <form action="#" method="post" id="login-form">
+            <h2>Login</h2>
+            <div class="input-box">
+                <label for="login-email" class="hidden">Email</label>
+                <input type="text" name="login-email" class="login-field" id="login-email" placeholder="Email address">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="login-error"></span>
+            </div>
+            <div class="input-box">
+                <label for="login-password" class="hidden">Password</label>
+                <input type="password" name="login-password" class="login-field" id="login-password"
+                    placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+                <span class="login-error"></span>
+            </div>
+            <div class="info-wrapper">
+                <label><input type="checkbox" name="remember-data">Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button id="login-submit" type="submit" disabled>Login</button>
+            <p class="register">Don't have an account?
+                <a href="#" id="register-link">Register</a>
+            </p>
+        </form>
+    </div>
+
+    <div class="container" id="registration">
+        <form action="#" method="post" id="register-form">
+            <h2>Registration</h2>
+            <div class="input-box">
+                <label for="full-name" class="hidden">Full Name</label>
+                <input type="text" name="full-name" class="register-field" id="full-name" placeholder="Full Name">
+                <i class="fa-solid fa-user"></i>
+                <span class="register-error"></span>
+            </div>
+            <div class="input-box">
+                <label for="register-email" class="hidden">Email</label>
+                <input type="text" name="register-email" class="register-field" id="register-email"
+                    placeholder="Email address">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="register-error"></span>
+            </div>
+            <div class="input-box">
+                <label for="register-password" class="hidden">Password</label>
+                <input type="password" name="register-password" class="register-field" id="register-password"
+                    placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+                <span class="register-error"></span>
+            </div>
+
+            <div class="info-wrapper">
+                <label><input type="checkbox" name="police">I agree with the
+                    <a href="#">term and conditions</a></label>
+            </div>
+            <button id="register-submit" type="submit" disabled>Register</button>
+            <p class="register">Already have an accont?
+                <a href="#" id="login-link">Login</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>

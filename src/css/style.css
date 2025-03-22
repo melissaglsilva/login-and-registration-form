@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+*:focus {
+    border: 1px solid var(--clear-transparency);
+    border-radius: 5px;
+}
+
+:root {
+    --main-color: rgb(255, 255, 255);
+    --clear-transparency: rgba(255, 255, 255, 0.5);
+    --dark-transparency: rgba(0, 0, 0, 0.2);
+    --error: rgb(248, 71, 71);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(223, 224, 223) url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background-color: var(--dark-transparency);
+    box-shadow: -1px 0 10px var(--dark-transparency);
+    color: var(--main-color);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container h2 {
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.input-box {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-bottom: 2px solid var(--clear-transparency);
+    color: var(--main-color);
+    font-size: 1.6rem;
+    padding: 0 40px 0 5px;
+}
+
+.input-box input::placeholder {
+    color: var(--clear-transparency);
+}
+
+.input-box i {
+    position: absolute;
+    right: 15px;
+    top: 25%;
+    font-size: 2rem;
+}
+
+.login-error {
+    color: var(--error);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.register-error {
+    color: var(--error);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 15px 0;
+}
+
+.info-wrapper label input {
+    accent-color: var(--main-color);
+    margin-right: 3px;
+}
+
+.info-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.container button {
+    width: 100%;
+    height: 45px;
+    background-color: var(--main-color);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container button:disabled {
+    background-color: var(--clear-transparency);
+}
+
+.register {
+    font-size: 1.45rem;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register a {
+    font-weight: 600;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+#registration {
+    display: none;
+}
+
+.login-error,
+.register-error {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.hidden {
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
