@@ -5,11 +5,11 @@
 
 <div align="center">
 
-![last-commit](https://img.shields.io/github/last-commit/melissaglsilva/login-and-registration-form?color=5da200
+![last-commit](https://img.shields.io/github/last-commit/melissasilvadev/login-and-registration-form?color=5da200
 )
-![css](https://img.shields.io/github/languages/top/melissaglsilva/login-and-registration-form?color=5da200
+![javascript](https://img.shields.io/github/languages/top/melissasilvadev/login-and-registration-form?color=5da200
 )
-![languages](https://img.shields.io/github/languages/count/melissaglsilva/login-and-registration-form?color=5da200
+![languages](https://img.shields.io/github/languages/count/melissasilvadev/login-and-registration-form?color=5da200
 )
 </div>
 
@@ -34,13 +34,13 @@ Through user input, it verifies if the fields are filled correctly, showing erro
 <br><br>
 ---
 ### Open on GitHub Pages
-[https://melissaglsilva.github.io/login-and-registration-form/](https://melissaglsilva.github.io/login-and-registration-form/)
+[https://melissasilvadev.github.io/login-and-registration-form/](https://melissasilvadev.github.io/login-and-registration-form/)
 <br><br>
 
 ### Open Locally
 1. Clone this repository
 ```bash
-git clone https://github.com/melissaglsilva/login-and-registration-form.git
+git clone https://github.com/melissasilvadev/login-and-registration-form.git
 ```
 
 2. Go into the repository
